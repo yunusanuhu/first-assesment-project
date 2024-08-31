@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Avenir;
+  src: url("./assets/fonts/AvenirNextLTPro-Regular.otf");
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Avenir;
+}
+
+.login-page {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  background-color: #fcfcfc;
+}
+.right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.login {
+  margin-left: 100px;
+}
+
+.logo {
+  width: 173.76px;
+  height: 36px;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+  gap: 0px;
+  opacity: 0px;
+}
+.login-picture {
+  width: 600px;
+  height: 300px;
+  position: absolute;
+  top: 240px;
+  left: 67px;
+  gap: 0px;
+  opacity: 0px;
+}
+.main-form {
+  width: 400px;
+}
+.login-input {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  margin: 15px 0px;
+  outline: none;
+  border: 2px solid #545f7d26;
+}
+input[type="password"] {
+}
+.login h1 {
+  color: #213f7d;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 54.64px;
+}
+
+.enterdetails {
+  padding: 0;
+  margin: 0;
+}
+
+.forgot-password {
+  text-transform: uppercase;
+  color: #39cdcc;
+  font-family: Avenir;
+  font-weight: 600;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+.btn {
+  width: 425px;
+  padding: 10px;
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: #39cdcc;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  margin-bottom: 15px;
+}
+.password-container {
+  width: 400px;
+  position: relative;
+}
+.password-toggle {
+  position: absolute;
+  top: 12px;
+  right: 0;
+  color: #39cdcc;
+  font-family: Avenir;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}

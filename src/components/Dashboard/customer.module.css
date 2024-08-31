@@ -1,0 +1,16 @@
+.customerItem {
+  margin: 30px 15px;
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+
+.customerItem img {
+  margin: 0 10px;
+}
+
+.customerItem:hover {
+  background-color: #39cdcc;
+  border-left: #39cdcc;
+  cursor: pointer;
+}

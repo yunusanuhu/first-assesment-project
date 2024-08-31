@@ -1,0 +1,28 @@
+.sidebar {
+  width: 20%;
+  margin-top: 5px;
+  box-shadow: 3px 0px 20px 0px #0000000a;
+  font-family: Work Sans;
+  color: #213f7d;
+}
+
+.sidebarWrapper {
+  padding: 0px 20px;
+  text-transform: uppercase;
+}
+.dashboard {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.dashboard span {
+  margin: 5px;
+}
+
+.sidebarWrapper > p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+}

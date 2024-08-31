@@ -1,0 +1,129 @@
+.mainsection {
+  width: 80%;
+  margin-top: 5px;
+}
+.mainsectionWrapper {
+  margin: 50px;
+}
+.backarrow {
+  display: flex;
+  align-items: center;
+}
+
+.backarrow > span {
+  margin-left: 10px;
+}
+
+.userdetails {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.btncontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userbtn1 {
+  margin-right: 20px;
+  padding: 10px;
+  border: 1px solid #e4033b;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #e4033b;
+}
+
+.userbtn2 {
+  padding: 10px;
+  border: 1px solid #39cdcc;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: transparent;
+  color: #39cdcc;
+}
+.generaldetails {
+  padding: 20px 20px 0px 20px;
+}
+
+.upper {
+  display: flex;
+  justify-content: start;
+}
+
+.lower {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+.passportholder {
+  display: flex;
+}
+.passportholder > * {
+}
+
+.verticalline {
+  border-left: 1px solid #545f7d;
+  height: 80px;
+}
+
+/* .passportholder > div > p {
+  margin: 10px 0px;
+} */
+
+.passporttext {
+  padding: 0px 30px 0px 15px;
+}
+.passporttextp {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.42px;
+  text-align: left;
+  color: #545f7d;
+}
+
+.passporttextp2 {
+  font-family: Work Sans;
+  color: #213f7d;
+  font-weight: 600;
+}
+
+.passporttext > span {
+  font-family: Work Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.42px;
+  text-align: left;
+  color: #545f7d;
+}
+
+.passportholder > img {
+  width: 100px;
+  height: 100px;
+}
+.infoHeader {
+  margin-left: 20px;
+}
+.infoBody1 {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 100px;
+}
+
+.infoBody2 {
+  display: flex;
+  margin-left: 20px;
+}
+
+.infoBody2 > div {
+  width: 215px;
+}
